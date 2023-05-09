@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="head">
+                <h1>Contact us</h1>
+                <p>We'd love to get in touch and learn more about you. So, send us a message and we'll reply as fast as
+                    we can.</p>
+            </div>
+            <form class="form" action="verwerk.php" method="post">
+                <ul>
+                    <li>
+                        <label for="txtName">Your name:</label><br>
+                        <input type="text" id="txtName" name="txtName" placeholder="First" autofocus>
+                    </li>
+                    <li>
+                        <label for="txtLast"></label><br>
+                        <input type="text" id="txtLast" name="txtLast" placeholder="Last">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="txtEmail">E-mail</label><br>
+                        <p>We're going ot reply to your message by E-mail.</p>
+                        <input type="text" id="txtEmail" name="txtEmail" placeholder="E-mail" autofocus>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="txtPhone">Phone</label><br>
+                        <p>Only if you want to call us.</p>
+                        <input type="text" id="txtPhone" name="txtPhone" placeholder="Phone">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="txtMessage">Message</label><br>
+                        <textarea name="comment" form="usrform" id="txtMessage"></textarea>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <button type="submit">Send</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keuze</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+
+</body>
+
+</html>
+<main>
+    <div class="containerC">
+        <form action="verwerk.php" method="post">
+            <ul class="radioinvoer">
+                <li>
+                    <label for="txtSatisfied">what is your age group?</label><br>
+                </li>
+                <div>
+                    <li>
+                        <input name="h" type="radio" id="u18" value="U18">
+                        <label for="u18">Under 18</label>
+                    </li>
+                    <li>
+                        <input name="h" type="radio" id="1824" value="1824">
+                        <label for="1824">18 - 24</label>
+                    </li>
+                    <li>
+                        <input name="h" type="radio" id="2534" value="2534">
+                        <label for="2534">25 - 34</label>
+                    </li>
+                    <li>
+                        <input name="h" type="radio" id="3544" value="3544">
+                        <label for="3544">35 - 44</label>
+                    </li>
+                </div>
+            </ul>
+            <ul class="tekstinvoer">
+                <li>
+                    <label for="txtGender">What is your gender?</label><br>
+                    <input type="text" id="txtGender" name="txtGender" value="" autofocus>
+                </li>
+            </ul>
+
+            <ul class="radioinvoer">
+                <li>
+                    <label for="txtSatisfied">How satisfied are you with our product/service?</label><br>
+                </li>
+                <div>
+                    <li>
+                        <input type="radio" id="very" name="radKeuze" value="VERY">
+                        <label for="very">Very much</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="satisfied" name="radKeuze" value="SATISFIED">
+                        <label for="satisfied">Satisfied</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="neutral" name="radKeuze" value="NEUTRAL" checked>
+                        <label for="neutral">Neutral</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="dissatisfied" name="radKeuze" value="DISS" checked>
+                        <label for="dissatisfied">dissatisfied</label>
+                    </li>
+                </div>
+            </ul>
+            <ul class="radioinvoer">
+                <li>
+                    <label for="txtSatisfied">How likely are you to reccomend us to others?</label><br>
+                </li>
+                <div>
+                    <li>
+                        <input type="radio" id="definitely" name="radKeuze" value="DEFF">
+                        <label for="definitely">Definitely</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="likely" name="radKeuze" value="LIKELY">
+                        <label for="likely">Likely to</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="neutrals" name="radKeuze" value="NEUTRALS" checked>
+                        <label for="neutrals">Neutral</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="unlikely" name="radKeuze" value="UNLIKELY" checked>
+                        <label for="unlikely">Unlikely to</label>
+                    </li>
+                </div>
+            </ul>
+            <ul class="tekstinvoer">
+                <li>
+                    <label for="txtChoose">What led you to choose our company?</label><br>
+                    <input type="text" id="txtChoose" name="txtChoose" value="" autofocus>
+                </li>
+            </ul>
+            <ul class="tekstinvoer">
+                <li>
+                    <label for="txtexp">Can you please tell us more about your experience with us?</label><br>
+                    <input type="text" id="txtexp" name="txtexp" value="" autofocus>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="submit" value="Verstuur via input" name="btnKnop">
+                </li>
+            </ul>
+        </form>
+    </div>
+</main>

@@ -1,0 +1,164 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+main {
+    width: 100%;
+
+}
+
+div.container {
+    background: #e2d7c5;
+    color: #80543c;
+    width: 40%;
+    margin: 60px auto 0px auto;
+    padding: 0px 20px;
+    height: 56em;
+}
+
+.head {
+    padding-top: 1em;
+    width: 90%;
+    border-bottom: 1px solid black;
+}
+
+.head p {
+    font-size: 120%;
+}
+
+form {
+    background: #e2d7c5;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 0fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.containerC form {
+    background: #e2d7c5;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.form textarea {
+    width: 32rem;
+    height: 10rem;
+    background-color: #f8ece4;
+    border-radius: 2px;
+    border: 2px solid #aaa08c;
+}
+
+.form input {
+    background-color: #f8ece4;
+    border-radius: 2px;
+    border: 2px solid #aaa08c;
+}
+
+ul {
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+ul:last-child {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+input {
+    appearance: none;
+    padding: 10px 16px;
+    border: none;
+    margin-top: 6px;
+    font-size: 1.1em;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #80543c;
+    text-transform: uppercase;
+}
+
+.form p {
+    margin-bottom: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    color: #80543c;
+}
+
+input:focus {
+    background-color: rgb(253, 247, 244);
+}
+
+button {
+    font-size: larger;
+    appearance: none;
+    border: 1px solid transparent;
+    padding: 10px 16px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #80543c;
+    color: #e2d7c5;
+    margin: 0;
+    width: 100px;
+    height: 50px;
+
+}
+
+button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+div.containerC {
+    background: #e2d7c5;
+    color: #80543c;
+    width: 40%;
+    margin: 60px auto 0px auto;
+    padding: 0px 20px;
+    height: 50em;
+}
+
+.tekstinvoer input {
+    width: 32vw;
+}
+
+.radioinvoer {
+    background: #e2d7c5;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.radioinvoer div li {
+    border-radius: 20px;
+    background-color: #c7c7c7;
+}
+
+.radioinvoer div li input {
+    border-radius: 20px;
+    background-color: #d6d6d6;
+}
+
+.radioinvoer div li input:focus {
+    border-radius: 20px;
+    background-color: #dc0b0b;
+}
